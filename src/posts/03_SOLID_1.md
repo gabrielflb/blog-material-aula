@@ -5,7 +5,6 @@ tag:
   - solid
 category:
   - aula
-order: 3
 ---
 
 # Princípios SOLID - Princípio da Responsabilidade Única (SRP)
