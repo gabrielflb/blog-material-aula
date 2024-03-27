@@ -5,6 +5,7 @@ tag:
   - solid
 category:
   - aula
+order: 5
 ---
 
 # Princípio da substituição de Liskov

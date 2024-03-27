@@ -5,6 +5,7 @@ tag:
   - solid
 category:
   - aula
+order: 4
 ---
 
 # Princípio Aberto-Fechado (OCP)

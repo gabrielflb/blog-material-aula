@@ -5,6 +5,7 @@ tag:
   - solid
 category:
   - aula
+order: 7
 ---
 
 # Princípio da Inversão de Dependência (DIP)

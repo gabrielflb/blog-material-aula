@@ -5,6 +5,7 @@ tag:
   - solid
 category:
   - aula
+order: 6
 ---
 
 # Princípio da Segregação de Interface (ISP)
