@@ -94,13 +94,13 @@ Interfaces menores são mais fáceis de implementar, melhorando a flexibilidade 
     }
 ```
 
-Neste código temos a interface `Pedido` sendo implementada pelas classes PedidoOnline e `PedidoPresencial`.
+Neste código temos a interface `Pedido` sendo implementada pelas classes `PedidoOnline` e `PedidoPresencial`.
 
 Aparentemente tudo esta correto e o código vai funcionar.
 
-Mas este código esta violando o princípio ISP pois a interface `Pedido` esta sendo implementada pela classe `PedidoPresencial` mas esta classe não esta implementando o método `ProcessarCartaoCredito`.
+Mas este código esta violando o princípio ISP pois a interface `Pedido` esta sendo implementada pela classe `PedidoPresencial` mas esta classe não esta implementando o método `processarCartaoCredito`.
 
-Assim a classe esta sendo forçada a depender do método `ProcessarCartaoCredito` que ela não precisa usar.
+Assim a classe esta sendo forçada a depender do método `processarCartaoCredito` que ela não precisa usar.
 
 Para adequar o código ao princípio ISP podemos fazer assim:
 
