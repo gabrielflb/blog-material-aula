@@ -259,4 +259,3 @@
 
 [^JogoSelva]: Jogo Selva [https://brainking.com/pt/GameRules?tp=56](https://brainking.com/pt/GameRules?tp=56)
 
-
