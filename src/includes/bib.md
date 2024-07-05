@@ -259,3 +259,4 @@
 
 [^JogoSelva]: Jogo Selva [https://brainking.com/pt/GameRules?tp=56](https://brainking.com/pt/GameRules?tp=56)
 
+[^GUERRA]: GUERRA, E. Design Patterns com Java : Projeto orientado a objetos guiado por padrões. [S.l.]: Casa do Código, 2013
