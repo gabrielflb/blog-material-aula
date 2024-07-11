@@ -5,6 +5,7 @@ tag:
   - GOF
 category:
   - aula
+navbar: false
 order: 8
 ---
 
@@ -12,7 +13,7 @@ order: 8
 
 ## Introdução
 
-A idéia de padrões foi apresentada por Christopher Alexander em 1977 no contexto de Arquitetura (de prédios e cidades):
+A ideia de padrões foi apresentada por Christopher Alexander em 1977 no contexto de Arquitetura (de prédios e cidades):
 - Problemas semelhantes com soluções diferentes
 - Reinventando a Roda
 
@@ -48,7 +49,7 @@ Os padrões de projeto são descrições de objetos que se comunicam e classes q
   - Faz o sistema ficar menos complexo ao permitir que se fale em um nível mais alto de abstração
 - Ajuda na documentação e na aprendizagem
   - Conhecendo os padrões de projeto torna mais fácil a compreensão de sistemas existentes
-  - "As pessoas que estão aprendendo POO frequentemente reclamam que os sistemas com os quais trabalham usam herança de forma convoluida e que é difí cil de seguir o fluxo de controle. Geralmente a causa disto é que eles não entendem os padrões do sistema"[GoF]
+  - "As pessoas que estão aprendendo POO frequentemente reclamam que os sistemas com os quais trabalham usam herança de forma convoluida e que é difícil de seguir o fluxo de controle. Geralmente a causa disto é que eles não entendem os padrões do sistema"[^GAMMA]
   - Aprender os padrões ajudam um novato a agir mais como um especialista
 - Uma prática adjunta aos métodos existentes
   - Mostram como usar práticas primitivas
@@ -56,7 +57,7 @@ Os padrões de projeto são descrições de objetos que se comunicam e classes q
   - Ajudam a converter um modelo de análise em um modelo de implementação
 - Um alvo para refatoramento
   - Captura as principais estruturas que resultam do refatoramento
-  - Uso de patterns desde o iní cio pode diminuir a necessidade de refatoramento
+  - Uso de patterns desde o início pode diminuir a necessidade de refatoramento
 ## Elementos de um padrão
 - Nome
 - Problema
@@ -86,15 +87,22 @@ Os padrões de projeto são descrições de objetos que se comunicam e classes q
   <tr>
     <td rowspan="2">Escopo</td>
     <td>Classe</td>
-    <td class="criacao">Factory Method</td>
-    <td class="estrutural">Adapter</td>
-    <td class="comportamental">Interpreter<br>Template Method</td>
+    <td class="criacao"><ul>
+      <li>Factory Method</li></ul></td>
+    <td class="estrutural"><ul>
+      <li>Adapter</li></ul></td>
+    <td class="comportamental">
+                            <ul>
+                              <li>Interpreter</li>
+                              <li>Template Method</li>
+                            </ul></td>
   </tr>
   <tr>
-    <td>Objetivo</td>
-    <td class="criacao">Abstract Factory<br>Builder<br>Prototype<br>Singleton</td>
-    <td class="estrutural">Adapter<br>Bridge<br>Composite<br>Decorator<br>Facade<br>Flyweight<br>Proxy</td>
-    <td class="comportamental">Chain of Responsability<br>Command<br>Iterator<br>Mediator<br>Memento<br>Observer<br>State<br>Strategy<br>Visitor</td>
+    <td>Objeto</td>
+    <td class="criacao">
+      <ul><li>Abstract Factory</li><li>Builder</li><li>Prototype</li><li>Singleton</li> </ul></td>
+    <td class="estrutural"><ul><li>Adapter</li><li>Bridge</li><li>Composite</li><li>Decorator</li><li>Facade</li><li>Flyweight</li><li>Proxy</li></ul></td>
+    <td class="comportamental"><ul><li>Chain of Responsability</li><li>Command</li><li>Iterator</li><li>Mediator</li><li>Memento</li><li>Observer</li><li>State</li><li>Strategy</li><li>Visitor</li></ul></td>
   </tr>
 </table>
 
@@ -224,9 +232,9 @@ Proxy  -[hidden]- Observer
   - Prover uma maneira de acessar elementos de um objeto agregado sequencialmente sem expor sua representação interna 
 - Visitor 
   - Representar uma operação a ser realizada sobre os elementos de uma estrutura de objetos 
+
 ## Como os padrões solucionam problemas?
 ### Quais os objetos mais apropriados? 
-
 
 - A tarefa de decompor um sistema em objetos não é trivial 
 - É preciso levar em conta fatores como encapsulamento, granularidade, dependência, flexibilidade, performance, reuso, etc. 
@@ -300,7 +308,8 @@ end note
 - Estrutura estática: hierarquias fixas e imutáveis 
 - Estrutura dinâmica: redes mutáveis de objetos interagindo 
 - Exemplo: agregação e associação são implementadas da mesma forma (em código) mas se mostram muito diferentes em tempo de execução 
-- Vários design patterns capturam a distinção entre estruturas run-time e compile-time As estruturas não são óbvias pelo código. É preciso entender os padrões!
+- Vários design patterns capturam a distinção entre estruturas run-time e compile-time. 
+- As estruturas não são óbvias pelo código. É preciso entender os padrões!
 ### Como antecipar mudanças? 
 - Os padrões viabilizam o desenvolvimento de código mais robusto diante de possíveis mudanças e refatoramento do código 
 - Padrões promovem desacoplamento e permitem que algum aspecto da estrutura do sistema varie independentemente de outros aspectos 
