@@ -39,4 +39,4 @@ Algumas vezes, os padrões de criação competem entre si. Por exemplo, há caso
 
 ## Referências
 
-<!-- @include: ../includes/bib.md -->
+<!-- @include: ../../includes/bib.md -->
