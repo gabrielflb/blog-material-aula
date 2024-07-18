@@ -41,6 +41,15 @@ Algumas vezes, os padrões de criação competem entre si. Por exemplo, há caso
 
 [Link](https://classroom.github.com/a/rIyLB1fD)
 
+|aluno|padrão|
+|--|--|
+|Factory Method|<ul><li>Árlei Nóbrega Oliveira</li><li>JOSÉ VICTOR OLIVEIRA DOS SANTOS</li><li>WALLACE SELES NEVES</li><ul>|
+|Abstract Factory|<ul><li>Brenda Gabriela Martinez Araújo </li><li>LUCAS FERREIRA DOS SANTOS</li><ul>|
+|Builder|<ul><li>GABRIEL FERREIRA LIMA BRITO </li><li>LUIS MIGUEL DE JESUS OLIVEIRA</li><li>Yuri Pêpe do Espírito Santo</li><ul>|
+|Prototype| <ul><li>GABRIEL MOREIRA BISPO SANTOS</li><li>Pedro Carlos de Gois Barros Santos</li><ul>|
+|<ul><li>Singleton</li><li>Multiton</li><ul>|<ul><li>Guilherme Sampaio Oliveira</li><li>Rian Silva da Fonseca</li><ul>|
+|Object Pool|<ul><li>JOÃO AUGUSTO MOURA PEIXOTO DE JESUS</li><li>SALVADOR CERQUEIRA JÚNIOR</li><ul>|
+
 ## Referências
 
 <!-- @include: ../../includes/bib.md -->
