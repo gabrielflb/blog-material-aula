@@ -1,6 +1,6 @@
 ---
 icon: edit
-date: 2024-07-18 19:00:00.00 -3
+date: 2024-07-18 20:00:00.00 -3
 tag:
   - GOF
 category:
@@ -33,8 +33,8 @@ Algumas vezes, os padrões de criação competem entre si. Por exemplo, há caso
 - **[Builder](Builder.md)** Separar o processo de construção de um objeto de sua representação e permitir a sua criação passo-a-passo. Diferentes tipos de objetos podem ser criados com implementações distintas de cada passo.
 - **[Prototype](Prototype.md)** Possibilitar a criação de novos objetos a partir da cópia de objetos existentes.
 - **[Singleton](Singleton.md)** Permitir a criação de uma única instância de uma classe e fornecer um modo para recuperá-la.
-- **[Multiton](Multiton.md)** Permitir a criação de uma quantidade limitada de instâncias de determinada classe e fornecer um modo para recuperá-las.
-- **[Object Pool](Object_Pool.md)** Possibilitar o reaproveitamento de objetos
+- **[Multiton](Multiton.md)** Permitir a criação de uma quantidade limitada de instâncias de determinada classe e fornecer um modo para recuperá-las.[^K19]
+- **[Object Pool](Object_Pool.md)** Possibilitar o reaproveitamento de objetos[^K19]
 
 
 ## Entrega
@@ -43,12 +43,12 @@ Algumas vezes, os padrões de criação competem entre si. Por exemplo, há caso
 
 |aluno|padrão|
 |--|--|
-|Factory Method|<ul><li>Árlei Nóbrega Oliveira</li><li>JOSÉ VICTOR OLIVEIRA DOS SANTOS</li><li>WALLACE SELES NEVES</li><ul>|
-|Abstract Factory|<ul><li>Brenda Gabriela Martinez Araújo </li><li>LUCAS FERREIRA DOS SANTOS</li><ul>|
-|Builder|<ul><li>GABRIEL FERREIRA LIMA BRITO </li><li>LUIS MIGUEL DE JESUS OLIVEIRA</li><li>Yuri Pêpe do Espírito Santo</li><ul>|
-|Prototype| <ul><li>GABRIEL MOREIRA BISPO SANTOS</li><li>Pedro Carlos de Gois Barros Santos</li><ul>|
-|<ul><li>Singleton</li><li>Multiton</li><ul>|<ul><li>Guilherme Sampaio Oliveira</li><li>Rian Silva da Fonseca</li><ul>|
-|Object Pool|<ul><li>JOÃO AUGUSTO MOURA PEIXOTO DE JESUS</li><li>SALVADOR CERQUEIRA JÚNIOR</li><ul>|
+|Factory Method|<ul><li>Árlei Nóbrega Oliveira</li><li>JOSÉ VICTOR OLIVEIRA DOS SANTOS</li><li>WALLACE SELES NEVES</li></ul>|
+|Abstract Factory|<ul><li>Brenda Gabriela Martinez Araújo </li><li>LUCAS FERREIRA DOS SANTOS</li></ul>|
+|Builder|<ul><li>GABRIEL FERREIRA LIMA BRITO </li><li>LUIS MIGUEL DE JESUS OLIVEIRA</li><li>Yuri Pêpe do Espírito Santo</li></ul>|
+|Prototype| <ul><li>GABRIEL MOREIRA BISPO SANTOS</li><li>Pedro Carlos de Gois Barros Santos</li></ul>|
+|<ul><li>Singleton</li><li>Multiton</li></ul>|<ul><li>Guilherme Sampaio Oliveira</li><li>Rian Silva da Fonseca</li></ul>|
+|Object Pool|<ul><li>JOÃO AUGUSTO MOURA PEIXOTO DE JESUS</li><li>SALVADOR CERQUEIRA JÚNIOR</li></ul>|
 
 ## Referências
 
