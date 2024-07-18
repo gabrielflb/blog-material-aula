@@ -37,6 +37,10 @@ Algumas vezes, os padrões de criação competem entre si. Por exemplo, há caso
 - **[Object Pool](Object_Pool.md)** Possibilitar o reaproveitamento de objetos
 
 
+## Entrega
+
+[Link](https://classroom.github.com/a/rIyLB1fD)
+
 ## Referências
 
 <!-- @include: ../../includes/bib.md -->
