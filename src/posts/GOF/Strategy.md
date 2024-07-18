@@ -6,6 +6,7 @@ tag:
   - gof
 category:
   - aula
+order: 9
 excerpt: Apresentação do Padrão de Projeto Strategy
 ---
 
