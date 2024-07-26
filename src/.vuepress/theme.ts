@@ -123,7 +123,7 @@ toc: "Nesta Página",
       mathjax: true,
 
       // install mermaid before enabling it
-      // mermaid: true,
+      mermaid: true,
 
       // playground: {
       //   presets: ["ts", "vue"],

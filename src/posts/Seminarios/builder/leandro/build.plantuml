@@ -1,0 +1,65 @@
+@startuml
+interface Aparelho
+interface AparelhoDirector{
+    Aparelho criarAparelho()
+}
+
+
+note top of Aparelho : Produto
+
+interface AparelhoBuilder{
+    addTeclado()
+    addMonitor()
+    addMemoria()
+    addArmazenamento()
+    Aparelho build()
+
+}
+class AparelhoPobreBuilder implements AparelhoBuilder {
+    addTeclado()
+    addMonitor()
+    addMemoria()
+    addArmazenamento()
+}
+
+note right of AparelhoPobreBuilder::addMemoria
+  1Gb
+end note
+
+class AparelhoRicoBuilder implements AparelhoBuilder{
+    addTeclado()
+    addMonitor()
+    addMemoria()
+    addArmazenamento()
+}
+
+note right of AparelhoRicoBuilder::addMemoria
+  8Gb
+end note
+
+class SmartPhoneDirector implements AparelhoDirector{
+    Builder builder
+    Aparelho criarAparelho()
+}
+
+note right of SmartPhoneDirector::criarAparelho
+    builder.addMemoria()
+    builder.addArmazenamento()
+end note
+
+class PCDirector implements AparelhoDirector{
+    Builder builder
+    Aparelho criarAparelho()
+}
+
+note right of PCDirector::criarAparelho
+    builder.addTeclado()
+    builder.addMonitor()
+    builder.addMemoria()
+    builder.addArmazenamento()
+end note
+
+
+Aparelho .. AparelhoBuilder
+Aparelho .. AparelhoDirector
+@enduml  
