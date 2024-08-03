@@ -12,26 +12,24 @@ author: gabrielflb, LuisMiguelADS, YuriPepezin
 ---
 # Builder
 
-- GABRIEL FERREIRA LIMA BRITO
-
 ## Gabriel Ferreira Lima Brito (20212TADSSAJ0015)
 
 [@gabrielflb](https://github.com/gabrielflb)
 
-<!-- @include: ./builder/seminario-1-gabrielflb/README.md -->
+<!-- @include: ../../../includes/builder/seminario-1-gabrielflb/README.md -->
 
 ## Luis Miguel de Jesus Oliveira (20211TADSSAJ0005)
 
 [@LuisMiguelADS](https://github.com/LuisMiguelADS)
 
-<!-- @include: ./builder/seminario-1-LuisMiguelADS/README.md -->
+<!-- @include: ../../../includes/builder/seminario-1-LuisMiguelADS/README.md -->
  
 
 ## Yuri Pêpe do Espírito Santo (20221TADSSAJ0005) 
 
 [@YuriPepezin](https://github.com/YuriPepezin)
 
-<!-- @include: ./builder/seminario-1-YuriPepezin/ApYuri.md -->
+<!-- @include: ../../../includes/builder/seminario-1-YuriPepezin/ApYuri.md -->
 
 
 ## Leandro
@@ -40,7 +38,7 @@ author: gabrielflb, LuisMiguelADS, YuriPepezin
 
 ```plantuml
 
-<!-- @include: ./builder/leandro/build.plantuml -->
+<!-- @include: ../../../includes/builder/leandro/build.plantuml -->
 
 ```
 

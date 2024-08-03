@@ -1,18 +1,3 @@
-[submodule "src/posts/Seminarios/seminario-1/srcpostsSeminariosseminario-1JA"]
-	path = src/posts/Seminarios/seminario-1/srcpostsSeminariosseminario-1JA
-	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-JoaoAugustoMPdJ.git
-[submodule "src/posts/Seminarios/seminario-1/seminario-1-SalvadorCerqueiraJr"]
-	path = src/posts/Seminarios/seminario-1/seminario-1-SalvadorCerqueiraJr
-	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-SalvadorCerqueiraJr.git
-[submodule "src/posts/Seminarios/seminario-1/builder/seminario-1-YuriPepezin"]
-	path = src/posts/Seminarios/seminario-1/builder/seminario-1-YuriPepezin
-	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-YuriPepezin
-[submodule "src/posts/Seminarios/seminario-1/builder/seminario-1-gabrielflb"]
-	path = src/posts/Seminarios/seminario-1/builder/seminario-1-gabrielflb
-	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-gabrielflb.git
-[submodule "src/posts/Seminarios/seminario-1/builder/seminario-1-LuisMiguelADS"]
-	path = src/posts/Seminarios/seminario-1/builder/seminario-1-LuisMiguelADS
-	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-LuisMiguelADS.git
 [submodule "src/includes/factory_method/seminario-1-Arlei10"]
 	path = src/includes/factory_method/seminario-1-Arlei10
 	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-Arlei10.git
