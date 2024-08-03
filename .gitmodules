@@ -1,0 +1,6 @@
+[submodule "src/posts/Seminarios/seminario-1/srcpostsSeminariosseminario-1JA"]
+	path = src/posts/Seminarios/seminario-1/srcpostsSeminariosseminario-1JA
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-JoaoAugustoMPdJ.git
+[submodule "src/posts/Seminarios/seminario-1/seminario-1-SalvadorCerqueiraJr"]
+	path = src/posts/Seminarios/seminario-1/seminario-1-SalvadorCerqueiraJr
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-SalvadorCerqueiraJr.git
