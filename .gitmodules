@@ -13,3 +13,6 @@
 [submodule "src/includes/builder/seminario-1-YuriPepezin"]
 	path = src/includes/builder/seminario-1-YuriPepezin
 	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-YuriPepezin
+[submodule "src/includes/abstract_factory/seminario-1-Brenda-Martinez"]
+	path = src/includes/abstract_factory/seminario-1-Brenda-Martinez
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-Brenda-Martinez
