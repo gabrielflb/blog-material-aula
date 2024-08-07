@@ -1,0 +1,59 @@
+@startuml
+interface ReceitaPizza {
+    + setMassa(String massa) : void
+    + setMolho(String molho) : void
+    + setRecheio(String recheio) : void
+}
+
+interface Pizza {
+    + getMassa() : String
+    + getMolho() : String
+    + getRecheio() : String
+}
+
+interface PizzaBuilder extends ReceitaPizza {
+    + build() : Pizza
+}
+
+class PizzaSimplesBuilder implements PizzaBuilder {
+    - String massa
+    - String molho
+    - String recheio
+    
+    + setMassa(String massa) : void
+    + setMolho(String molho) : void
+    + setRecheio(String recheio) : void
+    + build() : Pizza
+}
+
+class PizzaGourmetBuilder implements PizzaBuilder {
+    - String massa
+    - String molho
+    - String recheio
+    
+    + setMassa(String massa) : void
+    + setMolho(String molho) : void
+    + setRecheio(String recheio) : void
+    + build() : Pizza
+}
+
+interface PizzaDirector extends ReceitaPizza {
+    + setBuilder(PizzaBuilder builder) : void
+    + construirPizza() : Pizza
+}
+
+class PizzaMargheritaDirector implements PizzaDirector {
+    - PizzaBuilder builder
+    + setBuilder(PizzaBuilder builder) : void
+    + construirPizza() : Pizza
+}
+
+class PizzaPepperoniDirector implements PizzaDirector {
+    - PizzaBuilder builder
+    + setBuilder(PizzaBuilder builder) : void
+    + construirPizza() : Pizza
+}
+
+PizzaDirector ..> Pizza : "construirPizza()"
+PizzaBuilder ..> Pizza : "build()"
+@enduml
