@@ -44,3 +44,13 @@ author: gabrielflb, LuisMiguelADS, YuriPepezin
 
 <figcaption> Exemplo de builder</figcaption>
 </figure>
+
+#João Augusto
+<figure>
+  ```plantuml
+
+<!-- @include: ../../../includes/builder/João Augusto/diagramaBuilderJA.plantuml -->
+
+```
+<figcaption> Exemplo de builder </figcaption>
+</figure>
