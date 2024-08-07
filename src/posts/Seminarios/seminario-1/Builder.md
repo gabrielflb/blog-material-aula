@@ -46,8 +46,10 @@ author: gabrielflb, LuisMiguelADS, YuriPepezin
 </figure>
 
 #João Augusto
+
 <figure>
-  ```plantuml
+
+```plantuml
 
 <!-- @include: ../../../includes/builder/João Augusto/diagramaBuilderJA.plantuml -->
 
