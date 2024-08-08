@@ -5,7 +5,7 @@ tag:
   - 'Abstract Factory'
   - gof
 category:
-  - seminario
+  - seminario-1
 order: 10
 excerpt: Apresentação do Padrão de Projeto Abstract Factory
 author: Brenda-Martinez
@@ -17,6 +17,6 @@ author: Brenda-Martinez
 
 [@Brenda-Martinez](https://github.com/Brenda-Martinez)
 
-<!-- @include: ../../../includes/abstract_factory/seminario-1-Brenda-Martinez/README.md -->
+<!-- @include: ../../../includes/seminario-1-Brenda-Martinez/README.md -->
 
 

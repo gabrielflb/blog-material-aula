@@ -25,7 +25,6 @@ Há dois temas recorrentes nesses padrões. Primeiro, todos encapsulam conhecime
 
 Consequentemente, os padrões de criação dão muita flexibilidade ao que, como e quando é criado e a quem cria. Eles permitem configurar um sistema com “objetos-produto” que variam amplamente em estrutura e funcionalidade. A configuração pode ser estática (isto é, especificada em tempo de compilação) ou dinâmica (em tempo de execução).
 
-
 Algumas vezes, os padrões de criação competem entre si. Por exemplo, há casos em que tanto [Prototype](Prototype.md) como [Abstract Factory](Abstract_Factory.md) podem ser usados proveitosamente. Em outras ocasiões, eles são complementares: [Builder](Builder.md) pode usar um dos outros padrões para implementar quais componentes são construídos. [Prototype](Prototype.md) pode usar [Singleton](Singleton.md) na sua implementação.
 
 - **[Factory Method](Factory_Method.md)** Encapsular a escolha da classe concreta a ser utilizada na criação de objetos de um determinado tipo.
@@ -36,19 +35,18 @@ Algumas vezes, os padrões de criação competem entre si. Por exemplo, há caso
 - **[Multiton](Multiton.md)** Permitir a criação de uma quantidade limitada de instâncias de determinada classe e fornecer um modo para recuperá-las.[^K19]
 - **[Object Pool](Object_Pool.md)** Possibilitar o reaproveitamento de objetos[^K19]
 
-
 ## Entrega
 
 [Link](https://classroom.github.com/a/rIyLB1fD)
 
-|aluno|padrão|
-|--|--|
-|Factory Method|<ul><li>Árlei Nóbrega Oliveira</li><li>JOSÉ VICTOR OLIVEIRA DOS SANTOS</li><li>WALLACE SELES NEVES</li></ul>|
-|Abstract Factory|<ul><li>Brenda Gabriela Martinez Araújo </li><li>LUCAS FERREIRA DOS SANTOS</li></ul>|
-|Builder|<ul><li>GABRIEL FERREIRA LIMA BRITO </li><li>LUIS MIGUEL DE JESUS OLIVEIRA</li><li>Yuri Pêpe do Espírito Santo</li></ul>|
-|Prototype| <ul><li>GABRIEL MOREIRA BISPO SANTOS</li><li>Pedro Carlos de Gois Barros Santos</li></ul>|
-|<ul><li>Singleton</li><li>Multiton</li></ul>|<ul><li>Guilherme Sampaio Oliveira</li><li>Rian Silva da Fonseca</li></ul>|
-|Object Pool|<ul><li>JOÃO AUGUSTO MOURA PEIXOTO DE JESUS</li><li>SALVADOR CERQUEIRA JÚNIOR</li></ul>|
+| aluno                                        | padrão                                                                                                                   |
+| -------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Factory Method                               | <ul><li>Árlei Nóbrega Oliveira</li><li>JOSÉ VICTOR OLIVEIRA DOS SANTOS</li><li>WALLACE SELES NEVES</li></ul>             |
+| Abstract Factory                             | <ul><li>Brenda Gabriela Martinez Araújo </li><li>LUCAS FERREIRA DOS SANTOS</li></ul>                                     |
+| Builder                                      | <ul><li>GABRIEL FERREIRA LIMA BRITO </li><li>LUIS MIGUEL DE JESUS OLIVEIRA</li><li>Yuri Pêpe do Espírito Santo</li></ul> |
+| Prototype                                    | <ul><li>GABRIEL MOREIRA BISPO SANTOS</li><li>Pedro Carlos de Gois Barros Santos</li></ul>                                |
+| <ul><li>Singleton</li><li>Multiton</li></ul> | <ul><li>Guilherme Sampaio Oliveira</li><li>Rian Silva da Fonseca</li></ul>                                               |
+| Object Pool                                  | <ul><li>JOÃO AUGUSTO MOURA PEIXOTO DE JESUS</li><li>SALVADOR CERQUEIRA JÚNIOR</li></ul>                                  |
 
 ## Referências
 

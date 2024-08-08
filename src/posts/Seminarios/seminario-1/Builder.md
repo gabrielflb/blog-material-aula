@@ -5,7 +5,7 @@ tag:
   - builder
   - gof
 category:
-  - seminario
+  - seminario-1
 order: 10
 excerpt: Apresentação do Padrão de Projeto Builder
 author: gabrielflb, LuisMiguelADS, YuriPepezin
@@ -16,21 +16,19 @@ author: gabrielflb, LuisMiguelADS, YuriPepezin
 
 [@gabrielflb](https://github.com/gabrielflb)
 
-<!-- @include: ../../../includes/builder/seminario-1-gabrielflb/README.md -->
+<!-- @include: ../../../includes/seminario-1-gabrielflb/README.md -->
 
 ## Luis Miguel de Jesus Oliveira (20211TADSSAJ0005)
 
 [@LuisMiguelADS](https://github.com/LuisMiguelADS)
 
-<!-- @include: ../../../includes/builder/seminario-1-LuisMiguelADS/README.md -->
- 
+<!-- @include: ../../../includes/seminario-1-LuisMiguelADS/README.md -->
 
-## Yuri Pêpe do Espírito Santo (20221TADSSAJ0005) 
+## Yuri Pêpe do Espírito Santo (20221TADSSAJ0005)
 
 [@YuriPepezin](https://github.com/YuriPepezin)
 
-<!-- @include: ../../../includes/builder/seminario-1-YuriPepezin/ApYuri.md -->
-
+<!-- @include: ../../../includes/seminario-1-YuriPepezin/ApYuri.md -->
 
 ## Leandro
 
@@ -38,7 +36,7 @@ author: gabrielflb, LuisMiguelADS, YuriPepezin
 
 ```plantuml
 
-<!-- @include: ../../../includes/builder/leandro/build.plantuml -->
+<!-- @include: ../../../includes/Leandro/build/build.plantuml -->
 
 ```
 
