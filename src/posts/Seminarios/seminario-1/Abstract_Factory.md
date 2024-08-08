@@ -23,7 +23,7 @@ author: Brenda-Martinez
 
 
 
-## Exemplo João Augusto
+## João Augusto
 
 ```plantuml
 
