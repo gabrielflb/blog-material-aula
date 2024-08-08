@@ -20,3 +20,60 @@ author: Brenda-Martinez
 <!-- @include: ../../../includes/abstract_factory/seminario-1-Brenda-Martinez/README.md -->
 
 
+
+
+
+## Exemplo João Augusto
+
+```plantuml
+
+@startuml
+interface Personagem {
+    +descricao(): String
+}
+
+interface Equipamento {
+    +usar(): void
+}
+
+interface RPGFactory {
+    +criarPersonagem(): Personagem
+    +criarEquipamento(): Equipamento
+}
+
+class Cavaleiro implements Personagem {
+    +descricao(): String
+}
+
+class Espada implements Equipamento {
+    +usar(): void
+}
+
+class Mago implements Personagem {
+    +descricao(): String
+}
+
+class Cajado implements Equipamento {
+    +usar(): void
+}
+
+class CavaleiroFactory implements RPGFactory {
+    +criarPersonagem(): Personagem
+    +criarEquipamento(): Equipamento
+}
+
+class MagoFactory implements RPGFactory {
+    +criarPersonagem(): Personagem
+    +criarEquipamento(): Equipamento
+}
+
+RPGFactory <|-- CavaleiroFactory
+RPGFactory <|-- MagoFactory
+CavaleiroFactory --> Cavaleiro : cria >
+CavaleiroFactory --> Espada : cria >
+MagoFactory --> Mago : cria >
+MagoFactory --> Cajado : cria >
+@enduml
+
+
+```
