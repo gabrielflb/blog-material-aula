@@ -36,7 +36,7 @@ author: gabrielflb, LuisMiguelADS, YuriPepezin
 
 ```plantuml
 
-<!-- @include: ../../../includes/Leandro/build/build.plantuml -->
+<!-- @include: ../../../includes/Leandro/builder/build.plantuml -->
 
 ```
 

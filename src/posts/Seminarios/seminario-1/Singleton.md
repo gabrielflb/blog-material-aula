@@ -22,3 +22,4 @@ author: GuiSamp, RiansFonseca
 [@RiansFonseca](https://github.com/RiansFonseca)
 
 <!-- @include: ../../../includes/seminario-1-RiansFonseca/README-SINGLETON.md -->
+
