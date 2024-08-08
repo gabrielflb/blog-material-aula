@@ -1,4 +1,4 @@
-package posts.Seminarios.singleton.leandro;
+package src.includes.multiton.leandro;
 
 public enum Configuracao {
     localDb("jdbc:mysql://localhost:3306/meuBanco",
@@ -30,7 +30,7 @@ public enum Configuracao {
         return usuario;
     }
     public static void main(String[] args) {
-        Configuracao.localDb.getSenha()
+        Configuracao.localDb.getSenha();
     }
     
 }

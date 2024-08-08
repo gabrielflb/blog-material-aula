@@ -1,18 +1,37 @@
-[submodule "src/includes/factory_method/seminario-1-Arlei10"]
-	path = src/includes/factory_method/seminario-1-Arlei10
-	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-Arlei10.git
-[submodule "src/includes/factory_method/seminario-1-zevictoros"]
-	path = src/includes/factory_method/seminario-1-zevictoros
-	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-zevictoros.git
-[submodule "src/includes/builder/seminario-1-LuisMiguelADS"]
-	path = src/includes/builder/seminario-1-LuisMiguelADS
-	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-LuisMiguelADS.git
-[submodule "src/includes/builder/seminario-1-gabrielflb"]
-	path = src/includes/builder/seminario-1-gabrielflb
-	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-gabrielflb.git
-[submodule "src/includes/builder/seminario-1-YuriPepezin"]
-	path = src/includes/builder/seminario-1-YuriPepezin
-	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-YuriPepezin
-[submodule "src/includes/abstract_factory/seminario-1-Brenda-Martinez"]
-	path = src/includes/abstract_factory/seminario-1-Brenda-Martinez
+[submodule "src/includes/seminario-1-Brenda-Martinez"]
+	path = src/includes/seminario-1-Brenda-Martinez
 	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-Brenda-Martinez
+[submodule "src/includes/seminario-1-SalvadorCerqueiraJr"]
+	path = src/includes/seminario-1-SalvadorCerqueiraJr
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-SalvadorCerqueiraJr
+[submodule "src/includes/seminario-1-LuisMiguelADS"]
+	path = src/includes/seminario-1-LuisMiguelADS
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-LuisMiguelADS
+[submodule "src/includes/seminario-1-YuriPepezin"]
+	path = src/includes/seminario-1-YuriPepezin
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-YuriPepezin
+[submodule "src/includes/seminario-1-JoaoAugustoMPdJ"]
+	path = src/includes/seminario-1-JoaoAugustoMPdJ
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-JoaoAugustoMPdJ
+[submodule "src/includes/seminario-1-Redror"]
+	path = src/includes/seminario-1-Redror
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-Redror
+[submodule "src/includes/seminario-1-Arlei10"]
+	path = src/includes/seminario-1-Arlei10
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-Arlei10
+[submodule "src/includes/seminario-1-GabrielMreira"]
+	path = src/includes/seminario-1-GabrielMreira
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-GabrielMreira
+[submodule "src/includes/seminario-1-gabrielflb"]
+	path = src/includes/seminario-1-gabrielflb
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-gabrielflb
+[submodule "src/includes/seminario-1-zevictoros"]
+	path = src/includes/seminario-1-zevictoros
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-zevictoros
+[submodule "src/includes/seminario-1-GuiSamp"]
+	path = src/includes/seminario-1-GuiSamp
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-GuiSamp
+[submodule "src/includes/seminario-1-RiansFonseca"]
+	path = src/includes/seminario-1-RiansFonseca
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-RiansFonseca
+

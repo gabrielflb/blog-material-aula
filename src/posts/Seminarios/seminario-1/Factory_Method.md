@@ -5,32 +5,31 @@ tag:
   - 'Factory Method'
   - gof
 category:
-  - seminario
+  - seminario-1
 order: 10
 excerpt: Apresentação do Padrão de Projeto Factory Method
 author: Arlei10, zevictoros
 ---
 # Factory Method
 
-
-## Árlei Nóbrega Oliveira (20221TADSSAJ0012) 
+## Árlei Nóbrega Oliveira (20221TADSSAJ0012)
 
 [@Arlei10](https://github.com/Arlei10)
 
-<!-- @include: ../../../includes/factory_method/seminario-1-Arlei10/README.md -->
+<!-- @include: ../../../includes/seminario-1-Arlei10/README.md -->
 
+## José Victor Oliveira dos Santos (20212TADSSAJ0008)
 
+[@zevictoros](https://github.com/zevictoros)
 
-## José Victor Oliveira dos Santos (20212TADSSAJ0008) 
-
-[@zevictoros](https://github.com/zevictoros) 
-
-<!-- @include: ../../../includes/factory_method/seminario-1-zevictoros/README.md -->
-
+<!-- @include: ../../../includes/seminario-1-zevictoros/README.md -->
 
 ## WALLACE SELES NEVES
 
 
+## Leandro
+
+@[code](../../../includes/Leandro/factory_method/Recepcionista.java)
 
 ## João Augusto
 
