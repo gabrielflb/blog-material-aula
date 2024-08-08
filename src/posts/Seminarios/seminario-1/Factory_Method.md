@@ -34,6 +34,8 @@ author: Arlei10, zevictoros
 
 ## João Augusto
 
+<figure>
+
 ```plantuml
 
 @startuml
@@ -72,3 +74,5 @@ ExcelRelatorioFactory --> RelatorioEmExcel : creates >
 
 
 ```
+
+</figure>
