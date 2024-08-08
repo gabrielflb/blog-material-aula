@@ -29,3 +29,46 @@ author: Arlei10, zevictoros
 
 
 ## WALLACE SELES NEVES
+
+
+
+##Exemplo João Augusto
+
+```plantuml
+
+@startuml
+interface Relatorio {
+    +generate(): void
+}
+
+class RelatorioEmPDF implements Relatorio {
+    +generate(): void
+}
+
+class RelatorioEmExcel implements Relatorio {
+    +generate(): void
+}
+
+abstract class RelatorioFactory {
+    +createRelatorio(): Relatorio
+}
+
+class PDFRelatorioFactory extends RelatorioFactory {
+    +createRelatorio(): Relatorio
+}
+
+class ExcelRelatorioFactory extends RelatorioFactory {
+    +createRelatorio(): Relatorio
+}
+
+Relatorio <|-- RelatorioEmPDF
+Relatorio <|-- RelatorioEmExcel
+RelatorioFactory <|-- PDFRelatorioFactory
+RelatorioFactory <|-- ExcelRelatorioFactory
+RelatorioFactory --> Relatorio : createRelatorio()
+PDFRelatorioFactory --> RelatorioEmPDF : creates >
+ExcelRelatorioFactory --> RelatorioEmExcel : creates >
+@enduml
+
+
+```
