@@ -15,15 +15,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set github url and credentials
+  run: |
+    /usr/bin/git config --global --add url."https://${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}:x-oauth-basic@github".insteadOf ssh://git@github
+    /usr/bin/git config --global --add url."https://${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}:x-oauth-basic@github".insteadOf https://github
+    /usr/bin/git config --global --add url."https://${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}:x-oauth-basic@github".insteadOf git@github
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PAT }}
           submodules: recursive
-      - name: Authorize Git
-        run: |
-          git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
-          git config --global user.name "$GITHUB_ACTOR"
       - name: Update submodule
         run: |
           git submodule update  --init --recursive --remote -f
