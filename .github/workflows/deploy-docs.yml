@@ -15,12 +15,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: 'recursive'
-          ssh-key: ${{ secrets.SSH_KEY }}
-
+          token: ${{ secrets.PAT }}
+          submodules: recursive
+      - name: Authorize Git
+        run: |
+          git config --global user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git config --global user.name "$GITHUB_ACTOR"
+      - name: Update submodule
+        run: |
+          git submodule update  --init --recursive --remote -f
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT }} 
       - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
