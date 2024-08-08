@@ -32,7 +32,7 @@ author: Arlei10, zevictoros
 
 
 
-## Exemplo João Augusto
+## João Augusto
 
 ```plantuml
 
