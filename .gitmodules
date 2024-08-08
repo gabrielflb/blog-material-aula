@@ -31,3 +31,7 @@
 [submodule "src/includes/seminario-1-GuiSamp"]
 	path = src/includes/seminario-1-GuiSamp
 	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-GuiSamp
+[submodule "src/includes/seminario-1-RiansFonseca"]
+	path = src/includes/seminario-1-RiansFonseca
+	url = https://github.com/20241-ifba-saj-ads-ppr/seminario-1-RiansFonseca
+
