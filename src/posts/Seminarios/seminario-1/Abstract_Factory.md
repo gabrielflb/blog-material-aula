@@ -25,6 +25,8 @@ author: Brenda-Martinez
 
 ## João Augusto
 
+<figure>
+  
 ```plantuml
 
 @startuml
@@ -75,5 +77,5 @@ MagoFactory --> Mago : cria >
 MagoFactory --> Cajado : cria >
 @enduml
 
-
 ```
+</figure>
