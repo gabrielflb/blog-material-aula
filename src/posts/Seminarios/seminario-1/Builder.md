@@ -42,3 +42,76 @@ author: gabrielflb, LuisMiguelADS, YuriPepezin
 
 <figcaption> Exemplo de builder</figcaption>
 </figure>
+
+# João Augusto
+
+<figure>
+
+```plantuml
+
+@startuml
+interface Pizza {
+    + getMassa() : String
+    + getMolho() : String
+    + getRecheio() : String
+}
+
+interface PizzaBuilder {
+    + setMassa(String massa) : void
+    + setMolho(String molho) : void
+    + setRecheio(String recheio) : void
+    + build() : Pizza
+}
+
+class PizzaSimplesBuilder implements PizzaBuilder {
+    - String massa
+    - String molho
+    - String recheio
+    
+    + setMassa(String massa) : void
+    + setMolho(String molho) : void
+    + setRecheio(String recheio) : void
+    + build() : Pizza
+}
+
+class PizzaGourmetBuilder implements PizzaBuilder {
+    - String massa
+    - String molho
+    - String recheio
+    
+    + setMassa(String massa) : void
+    + setMolho(String molho) : void
+    + setRecheio(String recheio) : void
+    + build() : Pizza
+}
+
+interface PizzaDirector {
+    + setBuilder(PizzaBuilder builder) : void
+    + construirPizza() : Pizza
+}
+
+class PizzaMargheritaDirector implements PizzaDirector {
+    - PizzaBuilder builder
+    + setBuilder(PizzaBuilder builder) : void
+    + construirPizza() : Pizza
+}
+
+class PizzaPepperoniDirector implements PizzaDirector {
+    - PizzaBuilder builder
+    + setBuilder(PizzaBuilder builder) : void
+    + construirPizza() : Pizza
+}
+
+PizzaBuilder <|-- PizzaSimplesBuilder
+PizzaBuilder <|-- PizzaGourmetBuilder
+PizzaDirector <|-- PizzaMargheritaDirector
+PizzaDirector <|-- PizzaPepperoniDirector
+PizzaDirector --> PizzaBuilder : setBuilder(builder)
+PizzaDirector --> Pizza : construirPizza()
+PizzaBuilder --> Pizza : build()
+@enduml
+
+
+```
+<figcaption> Exemplo de builder </figcaption>
+</figure>
