@@ -45,7 +45,7 @@ author: gabrielflb, LuisMiguelADS, YuriPepezin
 <figcaption> Exemplo de builder</figcaption>
 </figure>
 
-#João Augusto
+# João Augusto
 
 <figure>
 
