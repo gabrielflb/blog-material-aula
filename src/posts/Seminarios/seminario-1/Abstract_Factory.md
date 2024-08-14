@@ -79,3 +79,68 @@ MagoFactory --> Cajado : cria >
 
 ```
 </figure>
+## Gabriel Lima
+
+```mermaid
+---
+---
+title: Abstract Factory
+---
+classDiagram
+
+    class Car {
+        <<interface>>
+        +void drive()
+    }
+
+    class LuxuryCar {
+        +void drive()
+    }
+
+    class StandardCar {
+        +void drive()
+    }
+
+    class Motorcycle {
+        <<interface>>
+        +void ride()
+    }
+
+    class LuxuryMotorcycle {
+        +void ride()
+    }
+
+    class StandardMotorcycle {
+        +void ride()
+    }
+
+    class VehicleFactory {
+        <<interface>>
+        +Car createCar()
+        +Motorcycle createMotorcycle()
+    }
+
+    class LuxuryVehicleFactory {
+        +Car createCar()
+        +Motorcycle createMotorcycle()
+    }
+
+    class StandardVehicleFactory {
+        +Car createCar()
+        +Motorcycle createMotorcycle()
+    }
+
+    Car <|.. LuxuryCar
+    Car <|.. StandardCar
+    Motorcycle <|.. LuxuryMotorcycle
+    Motorcycle <|.. StandardMotorcycle
+    VehicleFactory <|.. LuxuryVehicleFactory
+    VehicleFactory <|.. StandardVehicleFactory
+    LuxuryVehicleFactory --> LuxuryCar : creates
+    LuxuryVehicleFactory --> LuxuryMotorcycle : creates
+    StandardVehicleFactory --> StandardCar : creates
+    StandardVehicleFactory --> StandardMotorcycle : creates
+
+
+
+```
