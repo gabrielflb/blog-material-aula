@@ -12,14 +12,20 @@ author: GuiSamp, RiansFonseca
 ---
 
 # Singleton
-## Guilherme Sampaio Oliveira (20221TADSSAJ0011)
-[@GuiSamp](https://github.com/GuiSamp)
+## Gabriel Ferreira Lima Brito
 
-<!-- @include: ../../../includes/seminario-1-GuiSamp/README.md -->
+```mermaid
+---
+---
+title: Exemplo Singleton
+---
+classDiagram
+    class Singleton {
+        -static final Singleton instance
+        -Singleton()
+        +static Singleton getInstance()
+        +void showMessage()
+    }
 
-
-## Rian Silva da Fonseca (20221TADSSAJ0002)
-[@RiansFonseca](https://github.com/RiansFonseca)
-
-<!-- @include: ../../../includes/seminario-1-RiansFonseca/README-SINGLETON.md -->
+```
 
