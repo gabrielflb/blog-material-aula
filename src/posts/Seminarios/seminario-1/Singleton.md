@@ -23,3 +23,20 @@ author: GuiSamp, RiansFonseca
 
 <!-- @include: ../../../includes/seminario-1-RiansFonseca/README-SINGLETON.md -->
 
+## Gabriel LimA
+
+```mermaid
+---
+---
+title: Singleton 
+---
+classDiagram
+    class Singleton {
+        -static final Singleton instance
+        -Singleton()
+        +static Singleton getInstance()
+        +void showMessage()
+    }
+
+
+```
