@@ -75,3 +75,61 @@ ExcelRelatorioFactory --> RelatorioEmExcel : creates >
 ```
 
 </figure>
+
+## Gabriel Lima
+```mermaid
+---
+---
+title: Pessoa e Telefone 
+---
+classDiagram
+    class Book {
+        <<abstract>>
+        +String title
+        +String author
+        +int pages
+        +void setTitle(String title)
+        +void setAuthor(String author)
+        +void setPages(int pages)
+        +String getTitle()
+        +String getAuthor()
+        +int getPages()
+    }
+
+    class FictionBook {
+        +FictionBook()
+        +String genre
+        +void setGenre(String genre)
+        +String getGenre()
+    }
+
+    class ScienceBook {
+        +ScienceBook()
+        +String field
+        +void setField(String field)
+        +String getField()
+    }
+
+    class BookFactory {
+        <<interface>>
+        +Book createBook()
+    }
+
+    class FictionBookFactory {
+        +Book createBook()
+    }
+
+    class ScienceBookFactory {
+        +Book createBook()
+    }
+
+    Book <|-- FictionBook
+    Book <|-- ScienceBook
+    BookFactory <|.. FictionBookFactory
+    BookFactory <|.. ScienceBookFactory
+    FictionBookFactory --> FictionBook : creates
+    ScienceBookFactory --> ScienceBook : creates
+
+
+
+```
