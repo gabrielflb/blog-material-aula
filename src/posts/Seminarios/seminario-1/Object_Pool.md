@@ -23,3 +23,39 @@ author: JoaoAugustoMPdJ, SalvadorCerqueiraJr
 [@SalvadorCerqueiraJr](https://github.com/SalvadorCerqueiraJr)
 
 <!-- @include: ../../../includes/seminario-1-SalvadorCerqueiraJr/README.md -->
+
+## Gabriel Ferreira Lima Brito
+
+```mermaid
+---
+---
+title: Object Pool
+---
+ classDiagram
+    class Book {
+        -String title
+        -String author
+        -int pages
+        +Book(String title, String author, int pages)
+        +void setTitle(String title)
+        +void setAuthor(String author)
+        +void setPages(int pages)
+        +String getTitle()
+        +String getAuthor()
+        +int getPages()
+    }
+
+    class BookPool {
+        -List<Book> availableBooks
+        -List<Book> inUseBooks
+        +BookPool(int poolSize)
+        +Book acquireBook()
+        +void releaseBook(Book book)
+    }
+
+    BookPool "1" --> "*" Book : manages
+
+
+
+
+```
