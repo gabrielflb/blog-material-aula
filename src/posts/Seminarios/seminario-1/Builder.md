@@ -115,3 +115,60 @@ PizzaBuilder --> Pizza : build()
 ```
 <figcaption> Exemplo de builder </figcaption>
 </figure>
+
+## Gabriel Lima
+
+```mermaid
+---
+---
+title: Builder
+---
+classDiagram
+    class Mirror {
+        +String frameMaterial
+        +String glassType
+        +void setFrameMaterial(String material)
+        +void setGlassType(String type)
+        +String getFrameMaterial()
+        +String getGlassType()
+    }
+    class GlassDoor {
+        +String frameMaterial
+        +String glassType
+        +String handleType
+        +void setFrameMaterial(String material)
+        +void setGlassType(String type)
+        +void setHandleType(String type)
+        +String getFrameMaterial()
+        +String getGlassType()
+        +String getHandleType()
+    }
+    class Builder {
+        <<interface>>
+        +void buildFrameMaterial(String material)
+        +void buildGlassType(String type)
+        +void buildHandleType(String type)
+        +Mirror getMirror()
+        +GlassDoor getGlassDoor()
+    }
+    class MirrorBuilder {
+        +void buildFrameMaterial(String material)
+        +void buildGlassType(String type)
+        +Mirror getMirror()
+    }
+    class GlassDoorBuilder {
+        +void buildFrameMaterial(String material)
+        +void buildGlassType(String type)
+        +void buildHandleType(String type)
+        +GlassDoor getGlassDoor()
+    }
+    class Director {
+        +void constructMirror(Builder builder, String frameMaterial, String glassType)
+        +void constructGlassDoor(Builder builder, String frameMaterial, String glassType, String handleType)
+    }
+    Mirror <|.. MirrorBuilder
+    GlassDoor <|.. GlassDoorBuilder
+    Builder <|.. MirrorBuilder
+    Builder <|.. GlassDoorBuilder
+    Director --> Builder : uses
+```
