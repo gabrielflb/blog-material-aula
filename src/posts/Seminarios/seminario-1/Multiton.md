@@ -65,3 +65,27 @@ public enum Configuracao {
     
 }
 ```
+
+## Gabriel Lima
+```mermaid
+---
+---
+title: Multiton
+---
+classDiagram
+    class Multiton {
+        -static Map<String, Multiton> instances
+        -Multiton()
+        +static Multiton getInstance(String key)
+        +void showMessage()
+    }
+
+    class Map {
+        +put(key: String, value: Multiton)
+        +get(key: String): Multiton
+    }
+
+    Multiton --> Map : usa
+
+
+```
