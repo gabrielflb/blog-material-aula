@@ -79,3 +79,66 @@ MagoFactory --> Cajado : cria >
 
 ```
 </figure>
+
+## Gabriel Lima
+```mermaid
+---
+---
+title: Abstract Factory
+---
+classDiagram
+    class Button {
+        <<interface>>
+        +void render()
+    }
+
+    class WindowsButton {
+        +void render()
+    }
+
+    class MacButton {
+        +void render()
+    }
+
+    class Checkbox {
+        <<interface>>
+        +void render()
+    }
+
+    class WindowsCheckbox {
+        +void render()
+    }
+
+    class MacCheckbox {
+        +void render()
+    }
+
+    class GUIFactory {
+        <<interface>>
+        +Button createButton()
+        +Checkbox createCheckbox()
+    }
+
+    class WindowsFactory {
+        +Button createButton()
+        +Checkbox createCheckbox()
+    }
+
+    class MacFactory {
+        +Button createButton()
+        +Checkbox createCheckbox()
+    }
+
+    Button <|.. WindowsButton
+    Button <|.. MacButton
+    Checkbox <|.. WindowsCheckbox
+    Checkbox <|.. MacCheckbox
+    GUIFactory <|.. WindowsFactory
+    GUIFactory <|.. MacFactory
+    WindowsFactory --> WindowsButton : creates
+    WindowsFactory --> WindowsCheckbox : creates
+    MacFactory --> MacButton : creates
+    MacFactory --> MacCheckbox : creates
+
+
+```
